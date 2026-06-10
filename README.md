@@ -154,7 +154,7 @@ Convergence is declared when MAE < 0.01. The reward plot shows rare high-reward 
 | 2 | 2.698 × 10⁻³ | $u(x) = c_0 + \sin(c_1 x) + \ldots$ |
 | 3 | 4.732 × 10⁻³ | $u(x) = c_0(c_1(x - \cos(\exp(x)))) - \ldots$ |
 | 4 | 4.975 × 10⁻³ | $u(x) = c_0 - \exp(\sin(c_1 + x + c_2)) - \ldots$ |
-| 5 | 2.467 × 10⁻³ | $u(x) = c_0 + \sin(c_1) - c_2 x$ |
+| 5 | 2.467 × 10⁻³ | $u(x) = c_0 + \sin(\exp(c_1)) - c_2 x$ |
 
 ---
 
